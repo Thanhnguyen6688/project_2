@@ -1,0 +1,209 @@
+header .drop-cus{
+    background-color: pink;
+    padding: 0.7rem 0.8rem;
+}
+header .header__nav:hover :is(:not(hover)){
+    scale: 0.9;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+header .header__nav:hover :is(:hover){
+    scale: 1.1;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    background-color: beige;
+}
+header .img-cus{
+    width: 2rem;
+}
+/* End header */
+/* main */
+section .sec-1 .sec-1__border{
+    border: 0.1px solid #f1f1f1;
+}
+.sec-1 .inner-title{
+    font-weight: 400;
+    font-size: 4rem;
+}
+.sec-1 .inner-img img{
+    width: 10rem;
+    aspect-ratio:16/9 ;
+    border-radius: 0.7rem;
+    -webkit-border-radius: 0.7rem;
+    -moz-border-radius: 0.7rem;
+    -ms-border-radius: 0.7rem;
+    -o-border-radius: 0.7rem;
+}
+.sec-1 .inner-img{
+    background: rgb(57, 40, 40);
+    display: inline-block;
+    padding: 1.5rem 1rem;
+    border-radius: 0.7rem;
+    -webkit-border-radius: 0.7rem;
+    -moz-border-radius: 0.7rem;
+    -ms-border-radius: 0.7rem;
+    -o-border-radius: 0.7rem;
+}
+.sec-1 .inner-img .inner-title{
+    width: 10rem;
+    font-size: 1.2rem;
+}
+.sec-1 .inner-img .inner-desc{
+    width: 10rem;
+    font-size: 0.7rem;
+}
+.sec-1 .inner-img :nth-child(n){
+    margin-bottom: 0.2rem;
+}
+.sec-1 .bg-pic{
+    background-image: url('../images/main/Dolomites-Day-Trip-Road-Trip-1536x1152.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 34.1rem;
+    aspect-ratio: 9/16;
+    position: absolute;
+    top: 0;
+    /* right: cal(50%-14.25rem); */
+    z-index: -1;
+}
+/* Sec-2 */
+.sec-2 .inner-title{
+    font-size: 2.5rem;
+    font-weight: 450;
+}
+.sec-2 .img-cus{
+    aspect-ratio: 5 /4;
+}
+.sec-2 .px-cus{
+    padding: 0 7rem;
+}
+.sec-2 .text-cus{
+    color: #dad5d5;
+}
+.sec-3 .right{
+    aspect-ratio: 4/3;
+    overflow-y: auto;
+}
+.sec-3 .left {
+    aspect-ratio: 4/3;
+    overflow-y: auto;
+}
+.sec-3 .right::-webkit-scrollbar {
+    display: none;
+}
+.sec-3 .left::-webkit-scrollbar {
+    display: none;
+}
+/* sec-3 */
+.sec-3 .inner-title{
+    font-size: 4rem;
+}
+.sec-3 .img-cus{
+    aspect-ratio: 3 / 2;
+}
+/* sec-4 */
+.sec-4 .inner-title.text-center{
+    font-size: 4rem;
+
+}
+.sec-4 .slick-prev::before {
+    content: '\3c';
+    font-family: "Font Awesome 6 Free";
+    font: var(--fa-solid fa-less-than);
+    display: inline-block;
+    background-color: blue;
+    font-size: 3rem ;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding-top: 1rem;
+    text-align:center;
+}
+.sec-4 button.slick-prev{
+    height: 5rem;
+    width: 5rem;
+    display: block;
+    padding: 0;
+    position: absolute;
+    top: calc(50%);
+    left: -2;
+    z-index: 10;
+}
+.sec-4 .slick-next::before {
+    content: '\3e';
+    font-family: "Font Awesome 6 Free";
+    font: var(--fa-solid fa-less-than);
+    display: inline-block;
+    background-color: rgb(21, 18, 192);
+    height: 5rem;
+    width: 5rem;
+    color: rgb(249, 246, 246);
+    font-size: 3rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.sec-4 button.slick-next {
+    display: block;
+    height: 5rem;
+    width: 5rem;
+    padding: 0;
+    position: absolute;
+    top: calc(50%);
+    left: -2;
+    z-index: 10;
+}
+/* sec-5 */
+.sec-5 .right-container{
+    padding-left: 3rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+
+}
+.sec-5 .right-container .inner-title{
+    font-size: 2.5rem;
+}
+/* sec-8 */
+.sec-8 .container .first_row .w-cus{
+    width:20rem;
+    border: none;
+    background: none;
+    border-bottom: solid 1px whitesmoke;
+}
+.sec-8 .container .first_row .w-cus::placeholder{
+    color:white;
+}
+/* dec-9 */
+.sec-9 .container .inner-center{
+    width:10rem;
+}
+.sec-9 .container .inner-wrap .input-cus{
+    background: none;
+    border: none;
+    border-top:1px solid whitesmoke ;
+    border-bottom: 1px solid whitesmoke;
+    border-left: 1px solid whitesmoke;
+}
+.sec-9 .container .inner-wrap .input-cus::placeholder{
+    color:aliceblue;
+}
+/* css footer */
+footer .inner-icon{
+    width:10rem;
+    
+}

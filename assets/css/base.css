@@ -1,0 +1,38 @@
+:root{
+    --bg-bd: #5e4b4b;
+    --color-btn: #FE0000;
+    --fs-base: 18.6px;
+}
+
+body{
+    background-color: var(--bg-bd);
+}
+p{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.btn-cus{
+    background-color: var(--color-btn);
+    width: 150px;
+    height: 53px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-top: 0.6rem;
+}
+.icon-date::before {
+    content: '\f017';
+    font-family: "Font Awesome 6 Free";
+    font: var(--fa-solid fa-clock-three);
+    display: inline-block;
+    margin-right: 0.2rem;
+}
+/* css-sec-4 */
